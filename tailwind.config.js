@@ -16,11 +16,16 @@ module.exports = {
       'nav': '350px',
       'content': '500px',
     },
+    maxHeight: {
+      "klappentext": "600px",
+    },
     extend: {
       width: {
         "book": "550px",
+        "bookPicto": "110px",
       },
       height: {
+        "bookPicto": "150px",
         "book": "750px",
       },
       dropShadow: {

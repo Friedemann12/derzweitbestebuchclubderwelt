@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Navigation from "./components/navigation"
-import Book from './components/book'
+import BookCarousell from './components/bookcarousell'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Der zweit beste Buchclub der Welt</title>
-        <meta name="description" content="Der zweit beste Buchclub der Welt" />
+        <title>Der zweitbeste Buchclub der Welt</title>
+        <meta name="description" content="Der zweitbeste Buchclub der Welt" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -19,7 +19,7 @@ export default function Home() {
           <Navigation>
             <h1 className='text-4xl'>Home</h1>
           </Navigation>
-          <Book />
+          <BookCarousell/>
         </div>
       </main>
     </>
