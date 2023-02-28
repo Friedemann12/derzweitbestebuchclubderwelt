@@ -16,9 +16,7 @@ export default function Home() {
             </Head>
             <main>
                 <div className='flex row w-screen'>
-                    <Navigation>
-                        <h1 className='text-4xl'>Über uns</h1>
-                    </Navigation>
+                    <Navigation title="Über uns"></Navigation>
                     <div className='flex flex-col items-center'>
                         <div className='pt-20 w-6/12'>
                             <h1 className='text-4xl text-center'>Wer sind wir?</h1>

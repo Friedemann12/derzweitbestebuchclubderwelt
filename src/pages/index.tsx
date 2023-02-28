@@ -16,8 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <div className='flex row w-screen'>
-          <Navigation>
-            <h1 className='text-4xl'>Home</h1>
+          <Navigation title='Home'>
           </Navigation>
           <BookCarousell/>
         </div>

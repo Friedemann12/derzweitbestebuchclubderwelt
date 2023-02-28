@@ -16,9 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <div className='flex row w-screen'>
-          <Navigation>
-            <h1 className='text-4xl'>Bücher</h1>
-          </Navigation>
+          <Navigation title='Bücher'></Navigation>
           <div className='w-full flex flex-col items-center'>
             <ol className='pt-20 w-8/12'>
               <li className='flex flex-row justify-evenly items-center'>

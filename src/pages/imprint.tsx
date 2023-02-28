@@ -16,8 +16,7 @@ export default function Home() {
             </Head>
             <main>
                 <div className='flex row w-screen'>
-                    <Navigation>
-                        <h1 className='text-4xl'>Impressum</h1>
+                    <Navigation title='Impressum'>
                     </Navigation>
                     <div className='flex flex-col items-center'>
                         <div className='pt-20 w-6/12'>
