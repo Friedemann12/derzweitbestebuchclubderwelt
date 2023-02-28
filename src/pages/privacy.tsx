@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Navigation from "./components/navigation"
-import Book from './components/bookcarousell'
 
 export default function Home() {
     return (

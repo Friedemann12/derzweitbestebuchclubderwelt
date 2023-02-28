@@ -6,7 +6,6 @@ const cardo = Cardo({
   subsets: ['latin'],
   weight: '400'
 });
-console.log(cardo)
 
 
 export default function App({ Component, pageProps }: AppProps) {
