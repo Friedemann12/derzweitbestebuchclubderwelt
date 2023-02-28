@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import Navigation from "./components/navigation"
 import Book from './components/bookcarousell'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
     return (

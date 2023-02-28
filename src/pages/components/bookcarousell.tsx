@@ -1,4 +1,3 @@
-import { Bokor } from "next/font/google";
 import { useState } from "react";
 
 type Book = {

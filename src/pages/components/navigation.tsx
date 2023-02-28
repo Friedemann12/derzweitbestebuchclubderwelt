@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ReactNode, useState } from "react";
 import { useRouter } from "next/router";
-import { Ribeye } from "next/font/google";
 
 type Props = {
     children?: ReactNode,
@@ -57,4 +56,3 @@ export default function Navigation({ children, title = 'This is the default titl
     </div>
     );
 }
-8
