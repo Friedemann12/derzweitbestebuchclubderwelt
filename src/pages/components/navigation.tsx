@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { Ribeye } from "next/font/google";
 
-export default function Navigation({ children }) {
+export default function Navigation(pageTitle: String) {
     const [isMounted, setIsMounted] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
     const router = useRouter();
@@ -23,7 +23,7 @@ export default function Navigation({ children }) {
                 <div className="w-7 h-0.5 bg-white group-hover:w-10 ease-in-out duration-300"></div>
                 <div className="w-6 h-0.5 bg-white group-hover:w-10 ease-in-out duration-300"></div>
             </div>
-            {children}
+            {pageTitle}
         </div>
         <div className="fixed bottom-0 left-0 min-w-nav max-w-nav">
             <ul className="flex justify-around text-lg pb-2">
