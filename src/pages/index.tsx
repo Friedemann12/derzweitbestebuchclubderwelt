@@ -15,6 +15,7 @@ export default function Home() {
         <div className='flex row w-screen'>
           <Navigation title='Home'>
           </Navigation>
+                {/* @ts-expect-error Server Component */}
           <BookCarousell/>
         </div>
       </main>

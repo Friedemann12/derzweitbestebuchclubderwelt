@@ -3,7 +3,7 @@ import Navigation from "./components/navigation"
 
 export async function getServerSideProps() {
   try {
-    const res = await fetch(`http://localhost:3000/api/dummy`);
+    const res = await fetch(`http://localhost:3000/api/getAllBooks`);
     const data = await res.json();
     const listOfBooks: Array<Book> = []
     data.forEach((element: { id: string; name: string; author: string; klappentext: string; imagePath: string; releaseDate: Date }) => {
